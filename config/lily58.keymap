@@ -24,7 +24,7 @@ ZMK_HOLD_TAP(lhm_a,
     tapping-term-ms = <280>;
     quick-tap-ms    = <175>;
     require-prior-idle-ms = <150>;
-    bindings = <&kp A> <&kp LCTRL>;
+    bindings = <&kp A &kp LCTRL>;
     hold-trigger-key-positions = <OPP_RIGHT>;
     hold-trigger-on-release;
 )
@@ -32,49 +32,49 @@ ZMK_HOLD_TAP(lhm_a,
 ZMK_HOLD_TAP(lhm_s,
     flavor = "balanced";
     tapping-term-ms = <280>;  quick-tap-ms = <175>;  require-prior-idle-ms = <150>;
-    bindings = <&kp S> <&kp LALT>;
+    bindings = <&kp S &kp LALT>;
     hold-trigger-key-positions = <OPP_RIGHT>;  hold-trigger-on-release;
 )
 
 ZMK_HOLD_TAP(lhm_d,
     flavor = "balanced";
     tapping-term-ms = <280>;  quick-tap-ms = <175>;  require-prior-idle-ms = <150>;
-    bindings = <&kp D> <&kp LSHFT>;
+    bindings = <&kp D &kp LSHFT>;
     hold-trigger-key-positions = <OPP_RIGHT>;  hold-trigger-on-release;
 )
 
 ZMK_HOLD_TAP(lhm_f,
     flavor = "balanced";
     tapping-term-ms = <280>;  quick-tap-ms = <175>;  require-prior-idle-ms = <150>;
-    bindings = <&kp F> <&kp LGUI>;
+    bindings = <&kp F &kp LGUI>;
     hold-trigger-key-positions = <OPP_RIGHT>;  hold-trigger-on-release;
 )
 
 ZMK_HOLD_TAP(rhm_j,
     flavor = "balanced";
     tapping-term-ms = <280>;  quick-tap-ms = <175>;  require-prior-idle-ms = <150>;
-    bindings = <&kp J> <&kp RGUI>;
+    bindings = <&kp J &kp RGUI>;
     hold-trigger-key-positions = <OPP_LEFT>;  hold-trigger-on-release;
 )
 
 ZMK_HOLD_TAP(rhm_k,
     flavor = "balanced";
     tapping-term-ms = <280>;  quick-tap-ms = <175>;  require-prior-idle-ms = <150>;
-    bindings = <&kp K> <&kp RSHFT>;
+    bindings = <&kp K &kp RSHFT>;
     hold-trigger-key-positions = <OPP_LEFT>;  hold-trigger-on-release;
 )
 
 ZMK_HOLD_TAP(rhm_l,
     flavor = "balanced";
     tapping-term-ms = <280>;  quick-tap-ms = <175>;  require-prior-idle-ms = <150>;
-    bindings = <&kp L> <&kp RALT>;
+    bindings = <&kp L &kp RALT>;
     hold-trigger-key-positions = <OPP_LEFT>;  hold-trigger-on-release;
 )
 
 ZMK_HOLD_TAP(rhm_scln,
     flavor = "balanced";
     tapping-term-ms = <280>;  quick-tap-ms = <175>;  require-prior-idle-ms = <150>;
-    bindings = <&kp SEMI> <&kp RCTRL>;
+    bindings = <&kp SEMI &kp RCTRL>;
     hold-trigger-key-positions = <OPP_LEFT>;  hold-trigger-on-release;
 )
 
