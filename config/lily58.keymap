@@ -28,7 +28,7 @@
         bindings              = <&kp A>, <&kp LCTRL>;
         hold-trigger-key-positions = <OPP_RIGHT>;
         hold-trigger-on-release;
-    )
+    );
 
     ZMK_HOLD_TAP(lhm_s,
         flavor = "balanced";
@@ -38,7 +38,7 @@
         bindings              = <&kp S>, <&kp LALT>;
         hold-trigger-key-positions = <OPP_RIGHT>;
         hold-trigger-on-release;
-    )
+    );
 
     ZMK_HOLD_TAP(lhm_d,
         flavor = "balanced";
@@ -48,7 +48,7 @@
         bindings              = <&kp D>, <&kp LSHFT>;
         hold-trigger-key-positions = <OPP_RIGHT>;
         hold-trigger-on-release;
-    )
+    );
 
     ZMK_HOLD_TAP(lhm_f,
         flavor = "balanced";
@@ -58,7 +58,7 @@
         bindings              = <&kp F>, <&kp LGUI>;
         hold-trigger-key-positions = <OPP_RIGHT>;
         hold-trigger-on-release;
-    )
+    );
 
     /* ── Right-hand HRMs ────────────────────────────────────────────── */
     ZMK_HOLD_TAP(rhm_j,
@@ -69,7 +69,7 @@
         bindings              = <&kp J>, <&kp RGUI>;
         hold-trigger-key-positions = <OPP_LEFT>;
         hold-trigger-on-release;
-    )
+    );
 
     ZMK_HOLD_TAP(rhm_k,
         flavor = "balanced";
@@ -79,7 +79,7 @@
         bindings              = <&kp K>, <&kp RSHFT>;
         hold-trigger-key-positions = <OPP_LEFT>;
         hold-trigger-on-release;
-    )
+    );
 
     ZMK_HOLD_TAP(rhm_l,
         flavor = "balanced";
@@ -89,7 +89,7 @@
         bindings              = <&kp L>, <&kp RALT>;
         hold-trigger-key-positions = <OPP_LEFT>;
         hold-trigger-on-release;
-    )
+    );
 
     ZMK_HOLD_TAP(rhm_scln,
         flavor = "balanced";
@@ -99,7 +99,7 @@
         bindings              = <&kp SEMI>, <&kp RCTRL>;
         hold-trigger-key-positions = <OPP_LEFT>;
         hold-trigger-on-release;
-    )
+    );
 
     /* ================================================================= */
     /*                              KEYMAP                               */
