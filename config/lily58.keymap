@@ -47,7 +47,7 @@ ZMK_LAYER(default_layer,
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &kp TAB       &kp Q         &kp W         &kp E         &kp R         &kp T              &kp Y         &kp U         &kp I         &kp O         &kp P         &kp MINUS
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-        &kp LSHFT     &hml A LCTRL  &hml S LALT   &hml D LSHFT  &hml F LGUI  &kp G              &kp H         &hmr J RGUI   &hmr K RSHFT  &hmr L RALT   &hmr SEMI RCTRL &kp SQT
+        &kp LSHFT     &hml LGUI A  &hml LALT S   &hml LSHFT D  &hml LCTRL F  &kp G              &kp H         &hmr RCTRL J   &hmr RSHFT K  &hmr RALT L   &hmr RGUI SEMI  &kp SQT
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &kp LCTRL     &kp Z         &kp X         &kp C         &kp V         &kp B  &kp LBKT &kp RBKT      &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp RSHFT
 // ╰───────────────────────────  thumbs  ────────────────────────────────╯   ╰─────────────╥─────────────╥────────────────────────────────────────────╯
