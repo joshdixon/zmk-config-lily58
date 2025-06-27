@@ -51,7 +51,7 @@ ZMK_LAYER(default_layer,
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &kp LCTRL     &kp Z         &kp X         &kp C         &kp V         &kp B  &kp LBKT &kp RBKT      &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &kp RSHFT
 // ╰───────────────────────────  thumbs  ────────────────────────────────╯   ╰─────────────╥─────────────╥────────────────────────────────────────────╯
-                                                    &kp LALT  &kp LGUI   &mo LOW   &kp SPACE  &kp RET   &mo RAI   &kp BSPC  &kp RGUI
+                                                    &kp LALT  &kp LGUI   &mo LOW   &kp SPACE  &kp RET   &mo RAI   &kp BSPC  &kp DEL
 )
 
 /* LOWER (index 1) */
