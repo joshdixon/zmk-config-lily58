@@ -21,7 +21,7 @@
 
 /* ───── generic Hold-Taps ───── */
 ZMK_HOLD_TAP(hml,
-    flavor = "balanced";
+    flavor = "hold-preferred";
     tapping-term-ms = <280>;
     require-prior-idle-ms = <150>;
     hold-trigger-key-positions = <OPP_RIGHT>;
@@ -30,7 +30,7 @@ ZMK_HOLD_TAP(hml,
 )
 
 ZMK_HOLD_TAP(hmr,
-    flavor = "balanced";
+    flavor = "hold-preferred";
     tapping-term-ms = <280>;
     require-prior-idle-ms = <150>;
     hold-trigger-key-positions = <OPP_LEFT>;
@@ -71,7 +71,7 @@ ZMK_LAYER(lower_layer,
 /* RAISE (index 2) */
 ZMK_LAYER(raise_layer,
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-        ___           ___          ___          ___          ___          ___              ___          ___          ___          ___           ___          ___
+        ___           ___          ___          ___          ___          ___              ___          ___          ___          ___           ___   &kp PSCRN
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
       &kp GRAVE     &kp N7        &kp N7       &kp N8       &kp N9       &kp N5           &kp N6       &kp N7       &kp UP       &kp N9        &kp N0        ___
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
